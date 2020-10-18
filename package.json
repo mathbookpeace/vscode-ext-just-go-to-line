@@ -4,6 +4,7 @@
 	"description": "Just Go To Line",
 	"version": "0.0.1",
 	"icon": "src/icon.png",
+	"repository": { "type": "git", "url": "https://github.com/mathbookpeace/vscode-ext-just-go-to-line.git" },
 	"engines": {
 		"vscode": "^1.50.0"
 	},

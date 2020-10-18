@@ -2,8 +2,9 @@
 	"name": "justgotoline",
 	"displayName": "Just Go To Line",
 	"description": "Just Go To Line",
-	"version": "0.0.1",
-	"icon": "src/icon.png",
+	"publisher": "mathbookpeace",
+	"version": "0.0.3",
+	"icon": "icon.png",
 	"repository": { "type": "git", "url": "https://github.com/mathbookpeace/vscode-ext-just-go-to-line.git" },
 	"engines": {
 		"vscode": "^1.50.0"
@@ -19,7 +20,7 @@
 		"commands": [
 			{
 				"command": "justgotoline.gotoline",
-				"title": "gtl"
+				"title": "Just Go To Line"
 			}
 		]
 	},

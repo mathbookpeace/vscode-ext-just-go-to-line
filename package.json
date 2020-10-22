@@ -3,7 +3,7 @@
 	"displayName": "Just Go To Line",
 	"description": "Just Go To Line",
 	"publisher": "mathbookpeace",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"icon": "icon.png",
 	"repository": { "type": "git", "url": "https://github.com/mathbookpeace/vscode-ext-just-go-to-line.git" },
 	"engines": {

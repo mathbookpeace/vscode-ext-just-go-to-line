@@ -8,8 +8,9 @@ export function activate(context: vscode.ExtensionContext) {
 			if (!line) { return; }
 			let editor = vscode.window.activeTextEditor;
 			if (!editor) { return; }
-
-			let range = editor.document.lineAt(Number(line) - 1).range;
+			
+			let number = Math.max(0, Math.min(Number(line) - 1, editor.document.lineCount-1));
+			let range = editor.document.lineAt(number).range;
 			editor.selection = new vscode.Selection(range.end, range.end);
 			editor.revealRange(range);
 		});
